@@ -1,12 +1,16 @@
 import React from "react";
+
 import './App.css';
 import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-     <h1>Hello World</h1>
-     <Weather city="paris"/>
+      < Weather />
+       <p className="link">
+        <a href="https://github.com/sandeeeep/weather-react">Open-source Project </a>by Sandeep Kaur
+       </p>
     </div>
+   
   );
 }
 
