@@ -32,6 +32,8 @@
 .Weather canvas {
   margin-right: 10px;
   float: left;
+  position: relative;
+  bottom: -20px;
 }
 
 a {
@@ -57,7 +59,9 @@ a:hover {
 .Weather .temperature {
   font-size: 50px;
   font-weight: 400px;
-  position: relative;
-  top: -15px;
   float: left;
+}
+.Weather .units {
+  position: relative;
+  bottom: -10px;
 }
