@@ -5,6 +5,8 @@ export default function FormatDate(props){
     let day = days[props.date.getDay()];
     let hours = props.date.getHours();
     let minutes = props.date.getMinutes();
+    console.log(props.date);
+    console.log(minutes);
     if(hours<10){
         hours = `0${hours}`;
     }
