@@ -29,10 +29,10 @@
   padding: 0;
 }
 
-.Weather .weather-icon {
-  position: relative;
-  top: -15px;
+.Weather canvas {
+  margin-right: 10px;
 }
+
 a {
   text-decoration: none;
 }
@@ -60,12 +60,9 @@ a:hover {
 
 .Weather .units {
   position: relative;
-  top: -30px;
+  top: -25px;
 }
 
-.Weather .description {
-  text-transform: capitalize;
-}
 .Weather .current {
   background-color: red;
   color: white;
