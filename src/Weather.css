@@ -1,9 +1,11 @@
-body {
-  font-family: Arial, sans-serif;
-  min-width: 100%;
+.Weather {
+  border: 1px solid #7c7c7c;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-h1 {
+.Weather h1 {
   color: #7c7c7c;
   font-size: 24px;
   font-weight: 400;
@@ -14,7 +16,7 @@ h1 {
   text-transform: capitalize;
 }
 
-li {
+.Weather li {
   color: #7c7c7c;
   font-weight: 100;
   line-height: 1;
@@ -22,7 +24,7 @@ li {
   list-style: none;
 }
 
-ul {
+.Weather ul {
   margin: 0;
   padding: 0;
 }
@@ -37,23 +39,12 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.Weather .data {
-  margin-top: 50px;
-}
-
-.Weather {
-  border: 1px solid #7c7c7c;
-  max-width: 700px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 10px;
-}
 
 .Weather .form-style {
   margin-bottom: 30px;
 }
 
-.Weather .data1 {
+.Weather .weatherData {
   text-align: right;
   font-size: 16px;
 }

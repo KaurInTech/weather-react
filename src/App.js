@@ -5,7 +5,7 @@ import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-      < Weather />
+      < Weather defaultCity = "Port Mann"/>
        <p className="link">
         <a href="https://github.com/sandeeeep/weather-react">Open-source Project </a>by Sandeep Kaur
        </p>
