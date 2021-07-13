@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import axios from "axios";
 import Loader from "react-loader-spinner";
 import './Weather.css';
-
+import FormatDate from "./FormatDate";
 export default function Weather(props){
     const [weatherData,setWeatherData] = useState({ready:false});
     function handleResponse(response){
@@ -10,7 +10,7 @@ export default function Weather(props){
             ready : true,
             city : response.data.name,
             temperature : response.data.main.temp,
-            date : "Tuesday 10:00",
+            date : new Date(response.data.dt*1000),
             description : response.data.weather[0].description,
             imgUrl : "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
             humidity : response.data.main.humidity,
@@ -65,7 +65,7 @@ export default function Weather(props){
                
                     <h1> {weatherData.city}</h1>
                     <ul className="weatherData">
-                    <li>{weatherData.date}</li>
+                    <li><FormatDate date={weatherData.date}/></li>
                     <li className = "text-capitalize">{weatherData.description}</li>
                 </ul>
             </div>
