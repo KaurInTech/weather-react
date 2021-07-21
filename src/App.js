@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       < Weather defaultCity = "Port Mann"/>
        <p className="link">
-        <a href="https://github.com/sandeeeep/weather-react">Open-source Project </a>by Sandeep Kaur
+         This Project was coded by Sandeep Kaur and is 
+         <a href="https://github.com/sandeeeep/weather-react"> open-sourced on Github</a> and
+         <a href="https://github.com/sandeeeep/weather-react"> hosted on Netlify</a>
        </p>
     </div>
    

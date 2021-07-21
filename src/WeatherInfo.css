@@ -1,0 +1,26 @@
+.WeatherInfo .weatherData {
+  text-align: right;
+  font-size: 16px;
+}
+
+.WeatherInfo .weather-info {
+  font-size: 12px;
+}
+
+.WeatherInfo canvas {
+  margin-right: 10px;
+  float: left;
+  position: relative;
+  bottom: -20px;
+}
+
+.WeatherInfo .temperature {
+  font-size: 50px;
+  font-weight: 400px;
+  float: left;
+}
+
+.WeatherInfo .units {
+  position: relative;
+  bottom: -10px;
+}
